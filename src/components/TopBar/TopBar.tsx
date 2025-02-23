@@ -48,7 +48,6 @@ const TopBar = () => {
                 <input onChange={onSongSelected} accept="audio/*" id="song-select" type="file" name="song" className="hidden" />
             </div>
             <div className="space-x-2 flex items-center">
-                {/* Dono why disabled class is working, so just hardcoded the color */}
                 {
                     syncedLyrics.length === 0?
                     <button disabled className="bg-gray-500 h-max pl-4 pr-4 pt-1 pb-1 rounded-full  text-white hover:cursor-not-allowed">
