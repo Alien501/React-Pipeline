@@ -1,72 +1,46 @@
-# LRC Generator
+# Getting Started with Create React App
 
-**LRC Generator** is a user-friendly web application that allows users to paste lyrics, synchronize them with audio playback, and download the synchronized lyrics as an `.lrc` file. This project is built with **React**, featuring a modern UI styled using **Tailwind CSS**, state management powered by **Zustand**, and audio handling implemented with **Howler.js**.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-- **Paste Lyrics**: Easily paste song lyrics into the application.
-- **Sync Lyrics**: Synchronize lyrics with audio playback in real time.
-- **Download LRC**: Export synchronized lyrics as an `.lrc` file for use with media players.
+In the project directory, you can run:
 
-## Technologies Used
+### `npm start`
 
-- **React**: For building the user interface.
-- **Tailwind CSS**: For styling the application with a modern, responsive design.
-- **Zustand**: Lightweight state management.
-- **Howler.js**: Audio playback and controls.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Preview
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-![Screenshot of LRC Generator](/screenshot/image.png)
+### `npm test`
 
-## Getting Started
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Follow these steps to set up and run the project locally:
+### `npm run build`
 
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Installation
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Alien501/lrc-generator.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd lrc-generator
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
-5. Open the application in your browser at `http://localhost:5173`.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Current Limitations
+### `npm run eject`
 
-- Editing synchronized lyrics after initial sync is not yet supported.
-- UI may require further improvements for better accessibility and aesthetics.
-- Existing `.lrc` file synchronization is not backward-compatible in this release.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## To-Do (Upcoming Features)
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-1. **Edit Functionality**: Add the ability to edit synchronized lyrics.
-2. **Backward Compatibility**: Support syncing existing `.lrc` files.
-3. **UI Enhancements**: Improve the user interface for a better user experience.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-## Contributing
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Contributions are welcome! If you’d like to improve the application or address existing issues, feel free to fork the repository and submit a pull request.
+## Learn More
 
-## Feedback
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-If you encounter any issues or have suggestions for improvement, please open an issue in the repository or reach out to the developer.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+To learn React, check out the [React documentation](https://reactjs.org/).
