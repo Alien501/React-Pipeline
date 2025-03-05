@@ -5,7 +5,7 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <h1>This is the biggest and new title</h1>
+      <h1>Changed title</h1>
       <p>Count: {count}</p>
       <button onClick={() => setCount(count + 1)}>
         Increment
